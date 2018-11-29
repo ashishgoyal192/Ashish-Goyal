@@ -1,0 +1,38 @@
+<?php
+
+// HTTP
+ define('HTTP_SERVER', 'http://localhost/justeat/store/');
+ define('HTTP_CATALOG', 'http://localhost/justeat/');
+
+ // HTTPS
+ define('HTTPS_SERVER', 'http://localhost/justeat/store/');
+ define('HTTPS_CATALOG', 'http://localhost/justeat/');
+
+/*define('HTTP_SERVER', 'http://192.168.0.102/justeat/store/');
+define('HTTP_CATALOG', 'http://192.168.0.102/justeat/');
+
+define('HTTPS_SERVER', 'http://192.168.0.103/justeat/store/');
+define('HTTPS_CATALOG', 'http://192.168.0.103/justeat/');
+*/
+
+// DIR
+define('DIR_APPLICATION', '/var/www/justeat/store/');
+define('DIR_SYSTEM', '/var/www/justeat/system/');
+define('DIR_LANGUAGE', '/var/www/justeat/store/language/');
+define('DIR_TEMPLATE', '/var/www/justeat/store/view/template/');
+define('DIR_CONFIG', '/var/www/justeat/system/config/');
+define('DIR_IMAGE', '/var/www/justeat/image/');
+define('DIR_CACHE', '/var/www/justeat/system/cache/');
+define('DIR_DOWNLOAD', '/var/www/justeat/system/download/');
+define('DIR_UPLOAD', '/var/www/justeat/system/upload/');
+define('DIR_LOGS', '/var/www/justeat/system/logs/');
+define('DIR_MODIFICATION', '/var/www/justeat/system/modification/');
+define('DIR_CATALOG', '/var/www/justeat/catalog/');
+
+// DB
+define('DB_DRIVER', 'mysqli');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'adyas');
+define('DB_DATABASE', 'justeat');
+define('DB_PREFIX', 'exl_');
